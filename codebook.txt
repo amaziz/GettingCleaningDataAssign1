@@ -1,0 +1,15 @@
+codebook — Description of data contents
+
+The text file shows 180 observations and 81 variables.
+Each row represents a single activity of a single subject
+Example:
+row 1: shows the summary of valiables associated with Subject 1 while laying 
+and row 2 summarized the variable for the same subject while sitting
+Overall there are 6 activities * 30 subjects and hence 180 observations (180 rows)
+
+Row names:
+subjectid: the ID number of the subject
+activity: the activity label being summarized
+79 variables: Each reprensets the mean of the observed activity that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
+Each value is the mean of the activity and subject
+
